@@ -1,0 +1,14 @@
+name: AlienCat
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+description: An alien cat arrives in an aerospace ship and becomes a loyal defender.
+commands:
+  aliencat:
+    description: Summons the alien cat in its aerospace ship.
+    usage: /aliencat
+    permission: aliencat.summon
+permissions:
+  aliencat.summon:
+    description: Allows summoning the alien cat.
+    default: op
